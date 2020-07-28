@@ -1,0 +1,76 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Open Sans";
+}
+
+html,body{height:100%;}
+
+/*
+Classes Auxiliares
+*/
+
+.center{
+	margin: 0 auto;
+	max-width: 1280px;
+	padding:0 2%;
+}
+
+.clear{clear: both;}
+
+/***/
+
+nav ul a,
+nav .brand-logo {
+  color: white;
+}
+
+.sect1{
+	min-height: 400px;
+	position: relative;
+}
+
+.form-container{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: white;
+	padding: 15px 2%;
+	max-width: 700px;
+	width: 100%;
+}
+
+.custom-title{
+	position: relative;
+}
+
+.custom-title h2{
+	font-size: 30px;
+	color: #888;
+	background-color: white;
+	padding-right: 10px;
+	display: inline-block;
+	z-index: 2;
+	position: relative;
+}
+
+.flow-text{
+	color: #666;
+}
+
+.custom-title > div{
+	width: 100%;
+	position: absolute;
+	height: 3px;
+	top: 52px;
+	z-index: 1;
+	background-color: #888;
+	left: 0;
+}
+
+
+
+/* <------------ MEDIA SCREEN ------------> */
+
